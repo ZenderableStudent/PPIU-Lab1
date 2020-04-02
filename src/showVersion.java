@@ -8,7 +8,8 @@ public class showVersion {
 		String vendor = System.getProperty("java.vendor");
 		System.out.println(vendor);
 		System.out.println(version);
-        System.out.println("PPIU-Lab1");
+        System.out.println(DEV1.author);
+        System.out.println(DEV2.author);
 	}
 
 }
